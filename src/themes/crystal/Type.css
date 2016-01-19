@@ -1,0 +1,15 @@
+.calcviz-style.component-icon-small {
+  background-image: url("./images/icon-small.png");
+}
+
+.calcviz-style.component-icon-medium {
+  background-image: url("./images/icon-medium.png");
+}
+
+.calcviz-style.component-icon-large {
+  background-image: url("./images/icon-large.png");
+}
+
+.calcviz-style.component-icon-landscape {
+  background-image: url("./images/icon-landscape.png");
+}

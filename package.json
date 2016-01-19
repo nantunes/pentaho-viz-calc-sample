@@ -1,0 +1,22 @@
+{
+  "name": "pentaho-viz-calc-sample",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/Type.js",
+  "config": {
+    "pentaho/service": {
+      ".": "pentaho/type/value"
+    }
+  },
+  "scripts": {
+    "sandbox": "pentaho-viz-sandbox"
+  },
+  "themes": {
+    "default": "./themes/crystal",
+    "crystal": "./themes/crystal"
+  },
+  "devDependencies": {
+    "common-ui": "git+https://github.com/carlosrusso/pentaho-platform-plugin-common-ui.git#BACKLOG-6020",
+    "pentaho-viz-sandbox": "^1.0.10"
+  }
+}
