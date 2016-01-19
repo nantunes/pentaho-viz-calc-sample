@@ -20,6 +20,6 @@
   },
   "devDependencies": {
     "common-ui": "git+https://github.com/carlosrusso/pentaho-platform-plugin-common-ui.git#BACKLOG-6020",
-    "pentaho-viz-sandbox": "^1.0.10"
+    "pentaho-viz-sandbox": "https://github.com/nantunes/pentaho-viz-sandbox"
   }
 }
