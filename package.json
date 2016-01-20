@@ -19,7 +19,7 @@
     "crystal": "./themes/crystal"
   },
   "devDependencies": {
-    "common-ui": "git+https://github.com/carlosrusso/pentaho-platform-plugin-common-ui.git#BACKLOG-6020",
+    "common-ui": "https://github.com/pentaho/pentaho-platform-plugin-common-ui",
     "pentaho-viz-sandbox": "https://github.com/nantunes/pentaho-viz-sandbox"
   }
 }
