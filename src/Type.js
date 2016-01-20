@@ -15,7 +15,7 @@ define([
         id: "pentaho-viz-calc-sample",
         v2Id: "pentaho-viz-calc-sample",
 
-        view: "pentaho-viz-calc-sample/src/View",
+        view: "src/View",
         styleClass: "pentaho-viz-calc-sample-style",
         props: [
           {
