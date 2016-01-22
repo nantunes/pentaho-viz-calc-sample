@@ -1,6 +1,6 @@
 {
   "name": "pentaho-viz-calc-sample",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "description": "",
   "license": "MIT",
@@ -18,8 +18,10 @@
     "default": "./themes/crystal",
     "crystal": "./themes/crystal"
   },
+  "dependencies": {
+    "common-ui": "git+https://github.com/pentaho/pentaho-platform-plugin-common-ui.git"
+  },
   "devDependencies": {
-    "common-ui": "https://github.com/pentaho/pentaho-platform-plugin-common-ui",
-    "pentaho-viz-sandbox": "https://github.com/nantunes/pentaho-viz-sandbox"
+    "pentaho-viz-sandbox": "git+https://github.com/nantunes/pentaho-viz-sandbox.git"
   }
 }

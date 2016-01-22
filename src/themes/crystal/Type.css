@@ -1,15 +1,15 @@
-.calcviz-style.component-icon-small {
+.pentaho-viz-calc-sample-style.component-icon-small {
   background-image: url("./images/icon-small.png");
 }
 
-.calcviz-style.component-icon-medium {
+.pentaho-viz-calc-sample-style.component-icon-medium {
   background-image: url("./images/icon-medium.png");
 }
 
-.calcviz-style.component-icon-large {
+.pentaho-viz-calc-sample-style.component-icon-large {
   background-image: url("./images/icon-large.png");
 }
 
-.calcviz-style.component-icon-landscape {
+.pentaho-viz-calc-sample-style.component-icon-landscape {
   background-image: url("./images/icon-landscape.png");
 }

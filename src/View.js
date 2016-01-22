@@ -2,7 +2,6 @@ define([
   "pentaho/visual/base/View",
   "pentaho/i18n!View"
 ], function(Visual, bundle) {
-
   "use strict";
 
   /*global document:true, window:false*/
@@ -70,13 +69,14 @@ define([
 
       var getValue = function(k) {
         var v = dataTable.getValue(k, measureOrdinal);
-        return !isNaN(v) && v != null ? v : null;
+          return !isNaN(v) && v != null ? v : null;
       };
       var i;
 
       var value = null;
       var op = this.model.getv("operation").toUpperCase();
-      switch (op) {
+
+      switch(op) {
         case "MAX":
           for (i = 0; i < R; i++) {
             var vi = getValue(i);
@@ -102,7 +102,7 @@ define([
         case "AVG":
           var total = 0;
 
-          if (R) {
+          if(R) {
             for (i = 0; i < R; i++) {
               var vi = getValue(i);
 
@@ -115,7 +115,6 @@ define([
           } else {
             value = 0;
           }
-
           break;
 
         default:
