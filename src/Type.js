@@ -26,6 +26,12 @@ define([
           styleClass: "pentaho-viz-calc-sample-style",
           props: [
             {
+              name: "myList",
+              type: ["string"],
+              countMin: 1,
+              countMax: 3
+            },
+            {
               name: "measure",
               required: true
             },
